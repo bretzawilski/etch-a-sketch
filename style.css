@@ -1,5 +1,29 @@
+body {
+  padding: auto;
+  display: grid;
+  place-items: center;
+}
 #container {
   display: grid;
-  grid-template-columns: 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px;
-  grid-template-rows: 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px 2px;
+  grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+  grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+
+}
+
+#container div {
+  border: solid 1px;
+}
+
+.board {
+  background-color: aqua;
+}
+
+.painted-board {
+  background-color: rebeccapurple;
+}
+
+#shake {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
